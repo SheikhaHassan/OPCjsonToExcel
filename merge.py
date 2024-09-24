@@ -12,7 +12,7 @@ def merge_excel_sheets(input_file, output_file):
     combined_df.to_excel(output_file, index=False)
 
 
-# Example usage:
+
 input_excel_file = "final.xlsx"
 output_excel_file = "final1.xlsx"
 merge_excel_sheets(input_excel_file, output_excel_file)
